@@ -349,7 +349,7 @@ def _detect_mono_version(mx_version):
     if mx_version < 7:
         target = 'mono-3.10.0'
     else:
-        target = 'mono-4.6.2.16'
+        target = 'mono-5.12.0.226'
     logging.info('Selecting Mono Runtime: ' + target)
     return target
 
